@@ -1,0 +1,51 @@
+.footer{
+    background-color: black;
+    height: 350px;
+    padding: 20px;
+    color: white;
+}
+
+.upperFooter{
+    height: 300px;
+    display: flex;
+}
+
+.fbox{
+    width: 200px;
+    height: 90%;
+    /* background-color: aqua; */
+    margin: 10px;
+    margin-right:  50px;
+}
+
+.rigBox{
+    padding-right: 10px;
+    margin-right: 15px;
+    font-weight: bold;
+    text-align: right;   
+}
+#special{
+    width: 300px;
+}
+
+.downFooter{
+    display: flex;
+    height: 50px;
+    
+}
+
+.rigMost{
+    text-align: right;
+    padding:10px;
+    font-size: small;
+}
+
+.emptyFooter{
+    width: 75%;
+}
+
+#botImg{
+    height: 45px;
+    width: 150px;
+    margin: 10px;
+}
