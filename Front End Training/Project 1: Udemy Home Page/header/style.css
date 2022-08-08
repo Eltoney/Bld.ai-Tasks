@@ -45,3 +45,8 @@
     align-items: center;
     border: 0.5px dashed black;
   }
+
+  #clock{
+    margin-left: 50px;
+    height: 390px;
+  }

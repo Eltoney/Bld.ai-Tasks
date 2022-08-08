@@ -1,0 +1,29 @@
+.catBox {
+  /* background-color: yellow; */
+  width: 98%;
+  height: 50px;
+  margin: 2px;
+  display: flex;
+}
+.botCatBox {
+  height: 400px;
+}
+
+
+.innerBoxCat{
+    width: 23%;
+    margin: 2px;
+    height: 400px;
+    margin-right: 20px;
+    
+}
+
+.innerBoxCat a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.c1{
+    height: 350px;
+}
