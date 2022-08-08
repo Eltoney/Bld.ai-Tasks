@@ -10,25 +10,62 @@
 
 .box12 {
   height: 300px;
-  background-color: yellow;
+  /* background-color: yellow; */
   margin: 5px;
 }
 
 .box13 {
   height: 50px;
-  background-color: yellow;
+  /* background-color: yellow; */
   margin: 5px;
 }
 
 .box14 {
+  
+  padding: 10px;
+  border: 1px solid gray;
   height: 500px;
-  background-color: yellow;
+  /* background-color: yellow; */
   margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#h14{
+  height: 200px;
+}
+#boxClick{
+  border: 1px solid black;
+  font-weight: bold;
+  width: 140px;
+  padding: 10px;
+}
+.cont{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.test{
+  height: 50px;
+}
+
+.test h2{
+  padding: 5px;
+}
+.lineDiv{
+  
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  /* background-color: cyan; */
+  margin-top: -5px;
+  margin-left: 5px;
+  
 }
 
 .box15 {
   height: 100px;
-  background-color: yellow;
+  /* background-color: yellow; */
   margin: 5px;
 }
 
@@ -59,4 +96,15 @@
     color: black;
     margin-top: 5px;
     font-weight: 800;
+}
+
+.midImg{
+  width: 98%;
+  height: 80%;
+}
+
+.lineDiv p{
+  margin-top: -2px;
+  font-weight: bold;
+  font-size: smaller;
 }
