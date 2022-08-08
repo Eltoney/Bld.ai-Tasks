@@ -1,0 +1,62 @@
+.new {
+  height: 400px;
+  margin: 5px;
+}
+
+#clock {
+  margin-left: 50px;
+  height: 390px;
+}
+
+.box12 {
+  height: 300px;
+  background-color: yellow;
+  margin: 5px;
+}
+
+.box13 {
+  height: 50px;
+  background-color: yellow;
+  margin: 5px;
+}
+
+.box14 {
+  height: 500px;
+  background-color: yellow;
+  margin: 5px;
+}
+
+.box15 {
+  height: 100px;
+  background-color: yellow;
+  margin: 5px;
+}
+
+.benefits{
+    display: flex;
+}
+
+.inBen{
+    width: 30%;
+    height: 90%;
+    margin-right: 15px;
+    margin-left: 35px;
+    margin-top: -5px;
+    /* background-color: cyan; */
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-weight: bold;
+}
+
+.selection p{
+    margin-top: -10px;
+    color: gray;
+}
+
+#list{
+    word-spacing: 20px;
+    color: black;
+    margin-top: 5px;
+    font-weight: 800;
+}

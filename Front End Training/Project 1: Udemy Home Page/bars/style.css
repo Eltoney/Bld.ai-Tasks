@@ -9,7 +9,7 @@
 
 .businees,.transform , .instrctor , .topics{
     display: flex;
-    
+    resize:none;
     width: 98%;
     height: 450px;
     /* background: yellow; */
@@ -27,16 +27,19 @@
   .boxPress {
     width: 40%;
     height: 5%;
+    border:auto;
     border: 2px solid black;
     background-color: black;
     color: white;
     text-align: center;
     padding: 5px;
     font-weight: bold;
+    display: flex;
     
   }
   
   .boxPress1 {
+  border:auto;
     width: 60%;
     height: 5%;
     border: 2px solid black;
@@ -45,6 +48,7 @@
     text-align: center;
     padding: 5px;
     font-weight: bold;
+    display:flex;
   }
   
   .pruH2{
