@@ -5,8 +5,14 @@ body {
   font-weight: 400;
   line-height: 1.4;
   font-size: 1.6rem;
+  background-color: #ffffff;
   color: #1c1d1f;
 }
+
+button:hover{
+  cursor: pointer;
+}
+
 /* header */
 .header-btn {
   min-height: 40px;
@@ -58,29 +64,29 @@ body {
   .bus {
     display: none;
   }
-  .sidebar-top{
+  .sidebar-top {
     top: 90px;
     left: 35px;
   }
 }
 
-@media screen and (max-width: 900px){
-.cg{
-  display: none;
-}
-.sidebar-top{
-  top: 90px;
-  left: 35px;
-  width: 300px;
-  font-size: 15px;
-}
+@media screen and (max-width: 900px) {
+  .cg {
+    display: none;
+  }
+  .sidebar-top {
+    top: 90px;
+    left: 35px;
+    width: 300px;
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 800px) {
   .bt1 {
     display: none;
   }
-  .sidebar-top{
+  .sidebar-top {
     top: 90px;
     left: 35px;
     width: 200px;
@@ -94,3 +100,31 @@ body {
     width: 10%;
   }
 }
+
+/* courses section */
+.courses{
+  /* background-color: cyan; */
+  height: 600px;
+  width: 1300px;
+  
+}
+
+.board-h2{
+  padding-left: 5px;
+  margin: 0;
+}
+
+.choose{
+  margin-top: -5px 5px -5px 5px;
+  padding-left: 5px;
+  font-size: medium;
+}
+
+.courses-button{
+  padding: 12px;
+  border: none;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: medium;
+}
+
