@@ -13,7 +13,7 @@ button:hover {
   cursor: pointer;
 }
 
-input[type ="submit"]{
+input[type="submit"] {
   cursor: pointer;
 }
 
@@ -397,21 +397,70 @@ input[type ="submit"]{
   width: 470px;
 }
 
-footer{
+footer {
   height: 320px;
   background-color: #1c1d1f;
 }
 
-.topFot{
+.topFot {
   height: 250px;
 }
-.botFot{
+.botFot {
   height: 70px;
 }
 
-.botFot img{
+.botFot img {
   width: 100px;
   height: 50px;
-  margin-left:30px ;
-  background-color: ;
+  margin-left: 30px;
+}
+
+.copyright{
+  color:white;
+  font-size: 12px;
+}
+
+.botleft,
+.botright {
+  display: inline-block;
+  width: 48%;
+}
+
+.botright{
+  text-align: right;
+}
+
+.top-sec{
+  display: inline-block;
+  width: 268px;
+  height: 200px;
+  /* background-color: green; */
+  margin: 30px;
+}
+
+.topFot{
+  display: flex;
+}
+
+.topFot a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.top-btn-sec{
+  
+  padding-left: 200px;
+  width: 150px;
+}
+
+.foot-btn{
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  width: 100px;
+  height: 40px;
+  background-color: #1c1d1f;
 }
