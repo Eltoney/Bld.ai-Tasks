@@ -105,7 +105,8 @@ button:hover {
 .courses {
   box-sizing: border-box;
   /* background-color: cyan; */
-  font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  font-family: SuisseWorks, Georgia, Times, times new roman, serif,
+    apple color emoji, segoe ui emoji, segoe ui symbol;
   height: 620px;
   width: 1350px;
   margin: auto;
@@ -178,19 +179,26 @@ button:hover {
 
 .course-inst {
   font-size: 10px;
+  color: gray;
 }
 
 .course-name,
 .course-price {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
 }
 
 .course-inst,
-.course-name,
-.course-price {
+.course-name {
   display: block;
   padding: 5px;
+}
+
+.course-sale {
+  text-decoration: line-through;
+  font-size: 15px;
+  font-weight: light;
+  color: gray;
 }
 
 .inner-courses a {
@@ -198,6 +206,73 @@ button:hover {
   text-decoration: none;
 }
 
-.cc5{
+.cc5 {
   width: 230px;
+}
+
+.mid-bar {
+  /* background-color: cyan; */
+  width: 1200px;
+  margin: auto;
+  /* display: flex; */
+}
+
+.mid-bar p {
+  display: inline-block;
+  border: #1c1d1f;
+  /* background-color: yellow; */
+  width: 300px;
+  height: 20px;
+  margin: 15px 60px 15px 15px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.viewing {
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.viewing p,
+.catg p {
+  font-weight: bold;
+  font-size: 20px;
+  /* margin: 10px 0 0 0 ; */
+}
+
+.viewing a {
+  text-decoration: none;
+  color: black;
+}
+
+.catg {
+  flex: wrap;
+  width: 1300px;
+  height: 650px;
+  padding: 10px;
+}
+
+.catg-img {
+  
+  width: 300px;
+  height: 300px;
+}
+.catg div{
+  display: inline-block;
+  margin: 10px;
+}
+
+.catg-head{
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 12px;
+}
+.catg p {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.catg a {
+  color: black;
+  text-decoration: none;
 }
