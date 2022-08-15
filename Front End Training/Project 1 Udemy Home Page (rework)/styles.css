@@ -396,3 +396,22 @@ input[type ="submit"]{
   padding-left: 160px;
   width: 470px;
 }
+
+footer{
+  height: 320px;
+  background-color: #1c1d1f;
+}
+
+.topFot{
+  height: 250px;
+}
+.botFot{
+  height: 70px;
+}
+
+.botFot img{
+  width: 100px;
+  height: 50px;
+  margin-left:30px ;
+  background-color: ;
+}
